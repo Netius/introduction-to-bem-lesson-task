@@ -1,0 +1,10 @@
+$colours:(
+    grey: #e8e8e8,
+    green:#a4c799,
+    white: #ffffff,
+    pink: #e5689d,
+);
+
+@function getColour($colour) {
+    @return map-get($colours, $colour);
+}

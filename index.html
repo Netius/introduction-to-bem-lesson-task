@@ -9,20 +9,24 @@
         <link rel="stylesheet" href="css/style.css">
     </head>
     <body>
-       <nav>
-           <ul>
+      <div class="wrapper">  
+       <nav class="nav">
+           <ul class="nav__list">
                <li>
-                   <a href="#">Home</a>
+                   <a class="nav__link nav__link--active" href="#">Home</a>
                 </li>
                 <li>
-                    <a href="#">About</a>
+                    <a class="nav__link" href="#">About</a>
                  </li>
                  <li>
-                    <a href="#">Contact</a>
+                    <a class="nav__link" href="#">Contact</a>
                  </li>
            </ul>
+           <form class="nav__form">
+               <input class="nav__input" type="email" placeholder="Email"/>
+               <button class="nav__button">Submit</button>
+            </form>
        </nav>
-        
-       
+    </div>  
     </body>
 </html>

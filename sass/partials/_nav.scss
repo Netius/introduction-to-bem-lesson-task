@@ -1,0 +1,41 @@
+.nav{
+    background-color: #E8E8E8;
+    padding: 1.5em;
+    display: flex;
+    justify-content: space-between;
+
+    &__list{
+        list-style: none;
+        display: flex;
+        
+    }
+    &__link{
+        text-decoration: none;
+        margin-right: 2em;
+        font-size: 18px;
+        color: black;
+    }
+    &__link--active{
+        color: getColour(pink);
+    }
+    &__form{
+        position: relative;
+    }
+    &__input{
+        padding: 5px;
+        border:none;
+        margin-right: 75px;
+        width: 100%;
+    }
+    &__button{
+        position: absolute;
+        width: 75px;
+        padding: 5px 0;
+        top: 0;
+        right: 0;
+        border: none;
+        background-color: getColour(pink);
+        color: getColour(white);
+    }
+
+}
