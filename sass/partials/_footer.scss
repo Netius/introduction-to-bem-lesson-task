@@ -1,0 +1,12 @@
+.footer{
+    flex-shrink: 0;
+    text-align: center;
+    background-color: getColour(grey);
+    padding: 2em 0;
+
+    &__terms{
+        color: getColour(pink);
+        font-weight: bold;
+    }
+
+}
